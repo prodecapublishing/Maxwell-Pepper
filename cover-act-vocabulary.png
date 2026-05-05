@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wall Street's Apprentice — Maxwell Pepper</title>
+  <meta name="description" content="A fictional journey to pass the SIE Exam. Learn securities fundamentals through compelling storytelling by Maxwell Pepper." />
+  <link rel="canonical" href="https://maxwellpepperbooks.com/books/wall-streets-apprentice.html" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="../index.html" class="nav-logo">
+        <span class="nav-logo-name">Maxwell Pepper</span>
+        <span class="nav-logo-sub">Books &amp; Publishing</span>
+      </a>
+      <div class="nav-links">
+        <a href="../index.html">Home</a><a href="../books.html" class="active">Books</a><a href="../certifications.html">Certifications</a>
+        <a href="../finance.html">Finance</a><a href="../fiction.html">Fiction</a><a href="../blog.html">Blog</a>
+        <a href="../shop.html">Shop</a><a href="../about.html">About</a>
+      </div>
+      <div class="nav-cta">
+        <a href="https://a.co/d/0cXlyr53" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+        <button class="nav-hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <button class="mobile-menu-close" id="mobile-close">✕</button>
+  <a href="../index.html">Home</a><a href="../books.html">Books</a><a href="../certifications.html">Certifications</a>
+  <a href="../finance.html">Finance</a><a href="../fiction.html">Fiction</a><a href="../blog.html">Blog</a>
+  <a href="../shop.html">Shop</a><a href="../about.html">About</a>
+</div>
+
+<section style="padding:140px 0 80px;background:linear-gradient(135deg,var(--cream) 0%,#E8E8EA 100%);">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a><span class="breadcrumb-sep">›</span>
+      <a href="../books.html">Books</a><span class="breadcrumb-sep">›</span>
+      <a href="../finance.html">Finance</a><span class="breadcrumb-sep">›</span>
+      <span>Wall Street's Apprentice</span>
+    </div>
+    <div class="book-detail-grid">
+      <div class="book-detail-cover">
+        <img src="../images/cover-wall-street-apprentice.png" alt="Wall Street's Apprentice — SIE Exam" style="width:100%;border-radius:var(--radius-lg);box-shadow:var(--shadow-xl);display:block;" />
+        <div style="margin-top:20px;display:flex;flex-direction:column;gap:10px;">
+          <a href="https://a.co/d/0cXlyr53" target="_blank" class="btn btn-amazon btn-lg" style="justify-content:center;">Buy on Amazon →</a>
+        </div>
+      </div>
+
+      <div class="book-detail-info">
+        <div class="book-category" style="margin-bottom:12px;">Finance</div>
+        <h1 class="display-md" style="margin-bottom:12px;">Wall Street's Apprentice</h1>
+        <p style="font-size:1.1rem;color:var(--text-muted);margin-bottom:24px;">A Fictional Journey to Pass the SIE Exam</p>
+        <div style="display:flex;gap:24px;margin-bottom:28px;flex-wrap:wrap;">
+          <div style="text-align:center;"><div style="font-size:1.5rem;font-weight:700;color:var(--charcoal);">75</div><div style="font-size:.8rem;color:var(--text-muted);">Exam Questions</div></div>
+          <div style="text-align:center;"><div style="font-size:1.5rem;font-weight:700;color:var(--charcoal);">70%</div><div style="font-size:.8rem;color:var(--text-muted);">Passing Score</div></div>
+          <div style="text-align:center;"><div style="font-size:1.5rem;font-weight:700;color:var(--charcoal);">Story</div><div style="font-size:.8rem;color:var(--text-muted);">Driven Format</div></div>
+        </div>
+
+        <div style="margin-bottom:24px;">
+          <h3 style="font-family:var(--font-display);font-size:1.1rem;margin-bottom:12px;">Who This Book Helps</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:grid;gap:8px;">
+            <li style="display:flex;gap:10px;align-items:flex-start;"><span style="color:var(--gold);font-size:1.1rem;margin-top:2px;">✓</span>New entrants to the financial services industry taking the SIE Exam</li>
+            <li style="display:flex;gap:10px;align-items:flex-start;"><span style="color:var(--gold);font-size:1.1rem;margin-top:2px;">✓</span>College students pursuing Series 7, Series 63, or other FINRA exams</li>
+            <li style="display:flex;gap:10px;align-items:flex-start;"><span style="color:var(--gold);font-size:1.1rem;margin-top:2px;">✓</span>Career changers entering finance, brokerage, or wealth management</li>
+            <li style="display:flex;gap:10px;align-items:flex-start;"><span style="color:var(--gold);font-size:1.1rem;margin-top:2px;">✓</span>Anyone who finds securities regulation dry and needs a more engaging approach</li>
+          </ul>
+        </div>
+
+        <div style="margin-bottom:24px;">
+          <h3 style="font-family:var(--font-display);font-size:1.1rem;margin-bottom:12px;">What You'll Learn</h3>
+          <ul style="list-style:none;padding:0;margin:0;display:grid;gap:8px;">
+            <li style="display:flex;gap:10px;align-items:flex-start;"><span style="color:var(--gold);font-size:1.1rem;margin-top:2px;">→</span>Knowledge of capital markets: equities, bonds, and derivatives</li>
+            <li style="display:flex;gap:10px;align-items:flex-start;"><span style="color:var(--gold);font-size:1.1rem;margin-top:2px;">→</span>Customer accounts, prohibited practices, and suitability</li>
+            <li style="display:flex;gap:10px;align-items:flex-start;"><span style="color:var(--gold);font-size:1.1rem;margin-top:2px;">→</span>Overview of the regulatory framework: FINRA, SEC, MSRB</li>
+            <li style="display:flex;gap:10px;align-items:flex-start;"><span style="color:var(--gold);font-size:1.1rem;margin-top:2px;">→</span>Investment company products and variable contracts</li>
+            <li style="display:flex;gap:10px;align-items:flex-start;"><span style="color:var(--gold);font-size:1.1rem;margin-top:2px;">→</span>How to think about market risk and investor protection</li>
+          </ul>
+        </div>
+
+        <div style="background:var(--cream);border-radius:var(--radius);padding:20px;margin-bottom:28px;">
+          <h3 style="font-family:var(--font-display);font-size:1rem;margin-bottom:8px;">Why This Book Is Different</h3>
+          <p style="margin:0;font-size:.95rem;">The SIE exam covers securities concepts that can feel abstract and disconnected. Wall Street's Apprentice follows a young protagonist navigating Wall Street's world, with every chapter delivering exam-relevant knowledge through real stakes and memorable scenes. Securities law has never been this readable.</p>
+        </div>
+
+        <div style="display:flex;gap:14px;flex-wrap:wrap;">
+          <a href="https://a.co/d/0cXlyr53" target="_blank" class="btn btn-amazon btn-lg">Buy on Amazon →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:var(--warm-white);">
+  <div class="container" style="max-width:800px;">
+    <div class="section-header centered">
+      <div class="section-tag">Common Questions</div>
+      <h2 class="display-md">Frequently Asked Questions</h2>
+      <div class="gold-line"></div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Is this only for the SIE, or does it help with Series 7 too? <span class="faq-toggle">+</span></div>
+      <div class="faq-answer">The book is focused on the SIE (Securities Industry Essentials) exam, which is the co-requisite for most FINRA qualification exams including the Series 7. The foundational knowledge it covers — capital markets, products, regulations — will also give you a strong base for the Series 7 and Series 63.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">Do I need a finance background to read this? <span class="faq-toggle">+</span></div>
+      <div class="faq-answer">No prior finance knowledge is required. The story format introduces concepts gradually, building your understanding from scratch. The book is designed for career changers and first-timers entering the financial services industry.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-question">How long should I plan to study for the SIE? <span class="faq-toggle">+</span></div>
+      <div class="faq-answer">Most candidates are ready in 2–4 weeks of dedicated study. The SIE is designed to test broad knowledge, not deep technical skills, so reading through this guide and supplementing with practice questions puts you in strong position.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">More from Maxwell Pepper</div>
+      <h2 class="display-md">Related Books</h2>
+      <div class="gold-line"></div>
+    </div>
+    <div class="books-grid" style="grid-template-columns:repeat(3,1fr);">
+      <div class="book-card">
+        <div class="book-cover-wrap"><img src="../images/cover-series-65.png" alt="Series 65 Prep Guide" style="width:100%;height:100%;object-fit:cover;" /></div>
+        <div class="book-body"><div class="book-category">Certifications</div><div class="book-title">Series 65 Prep: An Entertaining Guide</div><p class="book-desc">Learn investment law and economics through storytelling.</p><div class="book-actions"><a href="series-65-guide.html" class="btn btn-outline btn-sm">View Details</a><a href="https://a.co/d/08tb9Hlz" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a></div></div>
+      </div>
+      <div class="book-card">
+        <div class="book-cover-wrap"><img src="../images/cover-market.png" alt="The Market Doesn't Owe You" style="width:100%;height:100%;object-fit:cover;" /></div>
+        <div class="book-body"><div class="book-category">Finance</div><div class="book-title">The Market Doesn't Owe You</div><p class="book-desc">Build 12-20%+ income on purpose. Stop waiting, start getting paid.</p><div class="book-actions"><a href="the-market-doesnt-owe-you.html" class="btn btn-outline btn-sm">View Details</a><a href="https://a.co/d/0fB0zh58" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a></div></div>
+      </div>
+      <div class="book-card">
+        <div class="book-cover-wrap"><img src="../images/cover-escape-plan.png" alt="The Escape Plan" style="width:100%;height:100%;object-fit:cover;" /></div>
+        <div class="book-body"><div class="book-category">Finance</div><div class="book-title">The Escape Plan</div><p class="book-desc">Five friends. Five strategies. One race to financial freedom.</p><div class="book-actions"><a href="the-escape-plan.html" class="btn btn-outline btn-sm">View Details</a><a href="https://a.co/d/0i71a9Lm" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand"><div class="footer-logo-name">Maxwell Pepper</div><div class="footer-logo-sub">Books &amp; Publishing</div><p>Story-driven books for everyday people who want to pass exams, build wealth, and think bigger.</p></div>
+      <div class="footer-links"><h4>Books</h4><a href="../certifications.html">Certifications</a><a href="../finance.html">Finance</a><a href="../fiction.html">Fiction</a><a href="../books.html">All Books</a></div>
+      <div class="footer-links"><h4>Explore</h4><a href="../blog.html">Blog</a><a href="../shop.html">Shop</a><a href="../about.html">About</a></div>
+      <div class="footer-links"><h4>Connect</h4><a href="https://www.amazon.com/stores/author/B0FBJ1C23K?ccs_id=b8b44d1a-534c-484b-9504-bbf1e9ed1a37" target="_blank">Amazon Author Page</a></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 Maxwell Pepper Books. All rights reserved.</p></div>
+  </div>
+</footer>
+<script src="../script.js"></script>
+</body>
+</html>

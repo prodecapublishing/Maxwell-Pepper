@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Books — Maxwell Pepper Books</title>
+  <meta name="description" content="Browse the complete catalog of Maxwell Pepper books. Study guides, finance books, fiction, and hobby learning guides." />
+  <link rel="canonical" href="https://maxwellpepperbooks.com/books.html" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-name">Maxwell Pepper</span>
+        <span class="nav-logo-sub">Books &amp; Publishing</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="books.html" class="active">Books</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="finance.html">Finance</a>
+        <a href="fiction.html">Fiction</a>
+        <a href="blog.html">Blog</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+      </div>
+      <div class="nav-cta">
+        <a href="books.html" class="btn btn-primary btn-sm">Browse Books</a>
+        <button class="nav-hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <button class="mobile-menu-close" id="mobile-close">✕</button>
+  <a href="index.html">Home</a><a href="books.html">Books</a><a href="certifications.html">Certifications</a>
+  <a href="finance.html">Finance</a><a href="fiction.html">Fiction</a><a href="blog.html">Blog</a>
+  <a href="shop.html">Shop</a><a href="about.html">About</a>
+</div>
+
+<!-- Page Hero -->
+<div class="page-hero">
+  <div class="container">
+    <div class="section-tag" style="margin:0 auto 16px;">Complete Catalog</div>
+    <h1 class="display-lg">All Books</h1>
+    <div class="gold-line" style="margin:14px auto 20px;"></div>
+    <p class="section-subtitle" style="margin:0 auto;">Every Maxwell Pepper book, organized by category. Filter by topic or search by title.</p>
+  </div>
+</div>
+
+<!-- Filter Bar -->
+<section class="section-sm">
+  <div class="container">
+    <div class="filter-bar" style="margin-bottom:40px;">
+      <button class="filter-btn active" data-filter="all">All Books</button>
+      <button class="filter-btn" data-filter="certifications">Certifications</button>
+      <button class="filter-btn" data-filter="finance">Finance</button>
+      <button class="filter-btn" data-filter="fiction">Fiction</button>
+      <button class="filter-btn" data-filter="hobby">Hobby</button>
+      <div class="search-box-wrap">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="book-search" placeholder="Search books..." />
+      </div>
+    </div>
+
+    <!-- Books Grid -->
+    <div class="books-grid">
+
+      <!-- ISA Certified Arborist -->
+      <div class="book-card" data-category="certifications">
+        <div class="book-cover-wrap">
+          <img src="images/cover-isa-arborist.png" alt="ISA Certified Arborist Exam Prep" loading="lazy" />
+          <div class="book-badge">Best Seller</div>
+        </div>
+        <div class="book-body">
+          <div class="book-category">Certifications</div>
+          <div class="book-title">ISA Certified Arborist Exam Prep</div>
+          <p class="book-desc">Story-driven guide covering all ISA exam domains with memorable frameworks and real test strategies.</p>
+          <div class="book-actions">
+            <a href="books/isa-arborist-exam-prep.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/0h2Z4PaT" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAA Part 107 -->
+      <div class="book-card" data-category="certifications">
+        <div class="book-cover-wrap">
+          <img src="images/cover-faa-107.png" alt="FAA Part 107 Remote Pilot Study Guide" loading="lazy" />
+        </div>
+        <div class="book-body">
+          <div class="book-category">Certifications</div>
+          <div class="book-title">FAA Part 107 Remote Pilot Study Guide</div>
+          <p class="book-desc">2025 Edition — story-driven approach to drone pilot certification with a full practice test.</p>
+          <div class="book-actions">
+            <a href="books/faa-part-107-study-guide.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/0hJJ5TFn" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- AWS Cloud Practitioner -->
+      <div class="book-card" data-category="certifications">
+        <div class="book-cover-wrap">
+          <img src="images/cover-aws.png" alt="AWS Cloud Practitioner CLF-C02 Study Guide" loading="lazy" />
+          <div class="book-badge">2025 Edition</div>
+        </div>
+        <div class="book-body">
+          <div class="book-category">Certifications</div>
+          <div class="book-title">AWS Cloud Practitioner (CLF-C02) Study Guide</div>
+          <p class="book-desc">Learn through the fictional tale of Cloudlet and the Kingdom of Nebulora. Includes 2 full practice exams.</p>
+          <div class="book-actions">
+            <a href="books/aws-cloud-practitioner.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/09NmFesR" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Series 65 -->
+      <div class="book-card" data-category="certifications">
+        <div class="book-cover-wrap">
+          <img src="images/cover-series-65.png" alt="Series 65 Prep: An Entertaining Guide" loading="lazy" />
+        </div>
+        <div class="book-body">
+          <div class="book-category">Certifications</div>
+          <div class="book-title">Series 65 Prep: An Entertaining Guide</div>
+          <p class="book-desc">Learn economic factors, investment vehicles, and laws through engaging storytelling.</p>
+          <div class="book-actions">
+            <a href="books/series-65-guide.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/08tb9Hlz" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- FE Civil -->
+      <div class="book-card" data-category="certifications">
+        <div class="book-cover-wrap">
+          <img src="images/cover-fe-civil.png" alt="FE Civil Exam Prep: A Story-Driven Guide" loading="lazy" />
+        </div>
+        <div class="book-body">
+          <div class="book-category">Certifications</div>
+          <div class="book-title">FE Civil Exam Prep: A Story-Driven Guide</div>
+          <p class="book-desc">The Alchemist's Formula — 200+ practice problems and worked examples for the NCEES FE Civil exam.</p>
+          <div class="book-actions">
+            <a href="books/fe-civil-prep.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/05ziOEOk" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ParaPro -->
+      <div class="book-card" data-category="certifications">
+        <div class="book-cover-wrap">
+          <img src="images/cover-parapro.png" alt="ParaPro Assessment Study Guide" loading="lazy" />
+        </div>
+        <div class="book-body">
+          <div class="book-category">Certifications</div>
+          <div class="book-title">ParaPro Assessment Study Guide</div>
+          <p class="book-desc">A fun fictional narrative with 2 full-length practice tests covering Reading, Math, and Writing.</p>
+          <div class="book-actions">
+            <a href="books/parapro-study-guide.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/09ipNA4V" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- FS-PS Exam Prep -->
+      <div class="book-card" data-category="certifications">
+        <div class="book-cover-wrap">
+          <img src="images/cover-fsps.png" alt="FS-PS Exam Prep" loading="lazy" />
+          <div class="book-badge">2025 Edition</div>
+        </div>
+        <div class="book-body">
+          <div class="book-category">Certifications</div>
+          <div class="book-title">FS-PS Exam Prep</div>
+          <p class="book-desc">Pass the first time with an entertaining fictional narrative. Includes 2 practice exams.</p>
+          <div class="book-actions">
+            <a href="books/fsps-exam-prep.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/07TElpyY" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cicerone Exam Prep -->
+      <div class="book-card" data-category="certifications">
+        <div class="book-cover-wrap">
+          <img src="images/cover-cicerone.png" alt="Cicerone Exam Prep: The Brewer's Odyssey" loading="lazy" />
+        </div>
+        <div class="book-body">
+          <div class="book-category">Certifications</div>
+          <div class="book-title">Cicerone Exam Prep: The Brewer's Odyssey</div>
+          <p class="book-desc">The only story-driven study guide for the Certified Beer Server and Certified Cicerone Exams.</p>
+          <div class="book-actions">
+            <a href="books/cicerone-exam-prep.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/084Binzr" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACT Vocabulary -->
+      <div class="book-card" data-category="certifications">
+        <div class="book-cover-wrap">
+          <img src="images/cover-act-vocabulary.png" alt="ACT Vocabulary: The Cipher Conspiracy" loading="lazy" />
+        </div>
+        <div class="book-body">
+          <div class="book-category">Certifications</div>
+          <div class="book-title">ACT Vocabulary: The Cipher Conspiracy</div>
+          <p class="book-desc">200+ ACT words woven into a gripping narrative ACT guide. Learn vocab through story.</p>
+          <div class="book-actions">
+            <a href="books/act-vocabulary.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/0e7sPxCj" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ham Radio -->
+      <div class="book-card" data-category="hobby">
+        <div class="book-cover-wrap">
+          <img src="images/cover-ham-radio.png" alt="Ham Radio License Study Guide" loading="lazy" />
+        </div>
+        <div class="book-body">
+          <div class="book-category">Hobby</div>
+          <div class="book-title">Ham Radio License Study Guide</div>
+          <p class="book-desc">A fictional journey through the full Technician question pool. Includes 2 practice exams.</p>
+          <div class="book-actions">
+            <a href="books/ham-radio-license-study-guide.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/0diuf6MF" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mold Odor Removal Guide -->
+      <div class="book-card" data-category="hobby">
+        <div class="book-cover-wrap">
+          <img src="images/cover-mold.png" alt="The Mold Odor Removal Guide" loading="lazy" />
+        </div>
+        <div class="book-body">
+          <div class="book-category">Hobby / Home</div>
+          <div class="book-title">The Mold Odor Removal Guide</div>
+          <p class="book-desc">No-nonsense techniques to eliminate mold odors and keep them from coming back. Includes bonus mold-fighting toolkit.</p>
+          <div class="book-actions">
+            <a href="books/mold-odor-removal.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/04ESdcyp" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Market Doesn't Owe You -->
+      <div class="book-card" data-category="finance">
+        <div class="book-cover-wrap">
+          <img src="images/cover-market.png" alt="The Market Doesn't Owe You" loading="lazy" />
+          <div class="book-badge">Best Seller</div>
+        </div>
+        <div class="book-body">
+          <div class="book-category">Finance</div>
+          <div class="book-title">The Market Doesn't Owe You</div>
+          <p class="book-desc">Build 12–20%+ income on purpose. Stop waiting. Start getting paid.</p>
+          <div class="book-actions">
+            <a href="books/the-market-doesnt-owe-you.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/0fB0zh58" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wall Street's Apprentice -->
+      <div class="book-card" data-category="finance">
+        <div class="book-cover-wrap">
+          <img src="images/cover-wall-street-apprentice.png" alt="Wall Street's Apprentice" loading="lazy" />
+        </div>
+        <div class="book-body">
+          <div class="book-category">Finance</div>
+          <div class="book-title">Wall Street's Apprentice</div>
+          <p class="book-desc">A fictional journey to pass the SIE Exam. Learn securities fundamentals through compelling storytelling.</p>
+          <div class="book-actions">
+            <a href="books/wall-streets-apprentice.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/0cXlyr53" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Escape Plan -->
+      <div class="book-card" data-category="finance">
+        <div class="book-cover-wrap">
+          <img src="images/cover-escape-plan.png" alt="The Escape Plan" loading="lazy" />
+        </div>
+        <div class="book-body">
+          <div class="book-category">Finance</div>
+          <div class="book-title">The Escape Plan</div>
+          <p class="book-desc">Five friends. Five strategies. One race to financial freedom.</p>
+          <div class="book-actions">
+            <a href="books/the-escape-plan.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/0i71a9Lm" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wolric -->
+      <div class="book-card" data-category="fiction">
+        <div class="book-cover-wrap">
+          <img src="images/cover-wolric.png" alt="Wolric: Overcome Worry" loading="lazy" />
+        </div>
+        <div class="book-body">
+          <div class="book-category">Fiction</div>
+          <div class="book-title">Wolric: Overcome Worry</div>
+          <p class="book-desc">A young warrior faces his greatest enemy — not a beast, but his own mind. An epic tale about conquering anxiety.</p>
+          <div class="book-actions">
+            <a href="books/wolric.html" class="btn btn-outline btn-sm">View Details</a>
+            <a href="https://a.co/d/0ceUDJdw" target="_blank" class="btn btn-amazon btn-sm">Buy on Amazon</a>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </div><!-- /books-grid -->
+  </div>
+</section>
+
+<!-- Email Capture -->
+<section class="section-sm">
+  <div class="email-section">
+    <div class="section-tag" style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.2);color:var(--gold-light);">Free Resources</div>
+    <h2 class="display-lg" style="margin-top:16px;">Get Free Study Tips<br>+ New Book Releases</h2>
+    <p class="section-subtitle" style="max-width:460px;">Join readers who get first access to new releases and exclusive study resources.</p>
+    <form class="email-form" onsubmit="return false;">
+      <input type="email" class="email-input" placeholder="Your email address" />
+      <button type="submit" class="btn btn-gold">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <span class="nav-logo-name">Maxwell Pepper</span>
+          <span class="nav-logo-sub" style="color:var(--gold-light);">Books &amp; Publishing</span>
+        </div>
+        <p>Practical, story-driven books designed to help everyday people succeed.</p>
+        <div class="social-links" style="margin-top:20px;">
+          <a href="#">📚</a><a href="#">𝕏</a><a href="#">📷</a><a href="#">▶</a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Books</h4><a href="certifications.html">Certifications</a><a href="finance.html">Finance</a><a href="fiction.html">Fiction</a><a href="books.html">All Books</a></div>
+      <div class="footer-col"><h4>Resources</h4><a href="blog.html">Blog</a><a href="certifications.html">Study Guides</a><a href="about.html">About Maxwell</a><a href="shop.html">Shop</a></div>
+      <div class="footer-col"><h4>Connect</h4><a href="https://www.amazon.com/stores/author/B0FBJ1C23K?ccs_id=b8b44d1a-534c-484b-9504-bbf1e9ed1a37" target="_blank">Amazon Author Page</a><a href="mailto:hello@maxwellpepperbooks.com">Contact</a><a href="#">Newsletter</a></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Maxwell Pepper Books. All rights reserved.</span>
+      <span style="color:rgba(255,255,255,.35);">Designed to inspire. Built to last.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
